@@ -4,4 +4,5 @@ project(TextFlow)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES main.cpp TextFlow_Tests.cpp TextFlow.hpp Surrogate.cpp)
-add_executable(TextFlow ${SOURCE_FILES})
+add_library(TextFlow INTERFACE TextFlow.hpp)
+add_executable(TextFlowTest ${SOURCE_FILES})
