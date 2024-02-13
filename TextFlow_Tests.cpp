@@ -1,7 +1,7 @@
 #include <random>
 #include "TextFlow.hpp"
 
-#include "catch.hpp"
+#include <catch.hpp>
 
 using namespace TextFlow;
 
